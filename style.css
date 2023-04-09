@@ -4,24 +4,65 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 
 .top {
+  display: flex;
+  flex-direction: column;
   background-color: #1F2937;
-  padding: 25px 230px;
+  padding: 20px 335px;
 }
 
-.header {
+.header,
+.title {
   display: flex;
   justify-content: space-between;
 }
 
-h3 {
+.header p {
   margin: 0px;
   padding: 0px;
   font-size: 24px;
   font-weight: 900;
   color: #F9FAF8;
+}
+
+.title {
+  margin: 100px 0px;
+  gap: 200px;
+}
+
+.hero {
+  width: 450px;
+  padding: 40px 0 0 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hero p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #E5E7EB;
+  margin: 0 0 15px 0;
+  padding: 0px;
+}
+
+.hero button {
+  width: 130px;
+  height: 38px;
+  color: white;
+  background-color: #3882F6;
+  font-weight: 900;
+  font-size: 16px;
+  border-radius: 10px;
+  border-style: none;
 }
 
 ul {
@@ -31,7 +72,7 @@ ul {
   display: flex;
   gap: 30px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 a {
